@@ -17,5 +17,5 @@ def Arrangefiles(path):
                 os.rename(os.path.join(path,file),os.path.join(folder,file))
 
 if __name__=="__main__":
-    path=r"D:\Logith project\Nivas"
+    path=r"D:\Logith project\Nivas"     # ----> your folder path
     Arrangefiles(path)
